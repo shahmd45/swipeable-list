@@ -21,6 +21,7 @@ function App() {
         setNoOfPage(Math.ceil(FilterData.length / itemsPerPage))
       } else {
         setFilterData(Data);  
+        setNoOfPage(Math.ceil(Data.length / itemsPerPage))
       }
     setSearch(value);
   }
